@@ -42,5 +42,6 @@ abstract class Book {
 		this.pages = pages;
 	}
 	
+	public abstract String coverArt();
 	
 }

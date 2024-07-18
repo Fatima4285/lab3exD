@@ -40,5 +40,11 @@ class Classic extends Hardcover{
 	public String binding() {
 		return "Method binding called from Classic";
 	}
+
+	@Override
+	public String coverArt() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
