@@ -1,5 +1,5 @@
 package ca.ucalgary.ensf380;
-
+//
 class Author {
 	private String name = "Unknown";
 	private String address;
