@@ -1,6 +1,6 @@
 package ca.ucalgary.ensf380;
 
-class Anthology {
+class Anthology extends Fiction{
 	private Story[] stories;
 	
 	public String storyOrder() {
@@ -13,5 +13,10 @@ class Anthology {
 	
 	public void setStory(Story[] stories) {
 		this.stories = stories;
+	}
+
+	@Override
+	public String coverArt() {
+		return "Method coverArt called from Anthology";
 	}
 }
